@@ -50,6 +50,7 @@ body {
   width: 50%;
   margin: 0 auto;
   position: relative;
+  text-align: center;
 }
 
 #contact input[type="text"],
@@ -64,7 +65,7 @@ body {
 #contact {
   background: #f9f9f9;
   padding: 25px;
-  margin: 50px 0;
+  margin: 30px 0;
   width: 100%;
   text-align: center;
 }
@@ -209,21 +210,11 @@ article {
   padding: 5px;
 }
 
-.card .card-content .card-title {
+.card .card-text .card-heading {
   display: block;
   line-height: 18px;
   margin-bottom: 4px;
   text-align: right;
-}
-
-.card .card-content .card-title {
-  display: block;
-  line-height: 32px;
-  margin-bottom: 8px;
-}
-.card .card-title {
-  font-size: 24px;
-  font-weight: 300;
 }
 
 .container {
