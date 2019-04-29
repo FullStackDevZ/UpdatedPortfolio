@@ -11,6 +11,13 @@
   text-rendering: optimizeLegibility;
 }
 
+section {
+  font-size: 37px;
+  font-style: helvetica;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 a {
   font-size: 18px;
   color: white;
@@ -28,8 +35,10 @@ a:link {
 }
 
 a:hover {
-  background-color: red;
-  color: yellow;
+  background-color: yellow;
+  color: red;
+  border-radius: 1px;
+  padding: 7px;
 }
 
 body {
@@ -125,14 +134,14 @@ fieldset {
   width: 100%;
   border: none;
   background: #0cf;
-  color: #fff;
+  color: black;
   margin: 0 0 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #contact button[type="submit"]:hover {
-  background: #09c;
+  background: red;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -178,16 +187,20 @@ header[role="banner"] .group {
 }
 
 p {
-    display: block;
+   
+  display: inline-block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 18px;
+    font-style: helvetica;
     font-weight: 300;
     color: black;
     text-align: left;
     background-color: white;
+    padding: 10px;
+    text-align: left;
 }
 
 div {
@@ -201,17 +214,34 @@ div {
 
 #portfolio {
   font-size: 14px;
+  font-style: Helvetica;
   color: black;
   line-height: 1.4;
-  padding: 2px;
+  padding: 16px 24px;
+  box-shadow: 10px 10px 5px grey;
+  text-align: left;
+
 }
+
+#top {
+  border-top: 1px solid rgba(160,160,160,0.2);
+}
+
+hr { 
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
 
 #form-control {
   border: 1px solid black;
 }
 
 article {
-  backround-image: white;
+  background-image: white;
   text-align: left;
   float: right;
   padding: 5px;
@@ -224,6 +254,8 @@ article {
   text-align: right;
 }
 
+
+
 .container {
   max-width: 50%;
   height: auto;
@@ -231,21 +263,26 @@ article {
 }
 
 img {
-  border: 3 px solid black;
-  border-radius: 3px;
+  background-image: linear-gradient(lightgreen, lime, green);
+}
+
+.tran {
+  background-image: transparent;
 }
 
 #pics {
   text-align: center;
-  padding: 15px;
+  padding: 10px; 
+  border: 1 px solid black;
+  border-radius: 14px;
+  
 }
 
 #pics:hover {
-  border: 3 px solid black;
-  border-radius: 3px;
-  cursor: pointer;
   background-image: linear-gradient(red, yellow);
+  cursor: pointer;
 }
+
 
 button {
   font-size: 14px;
@@ -265,7 +302,16 @@ button {
 #width {
   width: 960px;
   margin: 0 auto;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+}
+
+#key {
+  font-size:14px;
+  width: 300px;
+  height:100px;
+  float: left;
+  text-align: center;
+  padding: 10px;
 }
 
 #contact {
@@ -282,10 +328,11 @@ footer {
   text-align: center;
   color: white;
   border-top: 8px solid #4aaaa5;
+  position: relative;
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;

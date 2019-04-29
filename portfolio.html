@@ -14,11 +14,12 @@
     <link rel="stylesheet" type="text/css" href="./css/portfolio-style.css" />
   </head>
 
-  <body id="width">
+  <body>
+    <section id="width">
     <div class="row">
       <div class="col-lg-3">Ali Sarkeshik</div>
-
-      <div class="col-lg-9" style="text-align: right">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6" style="text-align: right">
         <a class="" href="./index.html">About</a>
         &nbsp;
         <a class="" href="./portfolio.html">Portfolio</a>
@@ -28,17 +29,42 @@
         <a class="" href="./contact.html">Contact </a>
       </div>
     </div>
-
-    <hr style="border: 2px solid lightgray;" />
-    <section style="text-align: center">Portfolio</section>
-    <hr style="border: 2px solid lightgray;" />
-    <hr width="100%" />
-    <br />
     
-    <section>
+    <hr style="border: 2px solid white;" />
+    <section style="text-align: center">Portfolio</section>
+    <hr style="border: 2px solid white;" />
+    </section>
+    <section id="key">
+      
+        <p id="portfolio" style="text-align: center; font-weight: bolder;font-size:14px;">
+      Navigation Key <br><br>
+
+        <img
+               src="./images/git.png"
+               alt="Image Not Found"
+               class="center"
+               id="pics"
+           />  
+           <br><br>
+           Click on a GitHub icon to view the code pertaining to the specified project.
+           <br><br>
+           <img
+           src="./images/trivia.png"
+           alt="Image Not Found"
+           class="center"
+           id="pics"
+           style="height:50px;width:75px;"
+       />
+       <br><br>
+       Clicking on an image pertaining to coding projects will take you to a deployed url for the project.
+      </p>
+      
+    </section>
+    <br>
+    <section id="width">
         <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-4">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
             <a
               style="text-align: left"
               href="https://www.ncbi.nlm.nih.gov/pubmed/?term=sarkeshik"
@@ -46,57 +72,74 @@
             >
               <img src="./images/articles.png" class="center" id="pics" />
             </a>
+            <p id="portfolio">
+              A list of the publications I have co-authored.
+            </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <a href="https://alisarkeshik.github.io/AJAX-Animated-GIFS/" target="_blank"
               ><img
-                src="./images/ajax-gifs.jpg"
+                src="./images/ajax-gifs.png"
                 alt="Image Not Found"
                 class="center"
                 id="pics"
             /></a>
-            <p class="card-text" id="portfolio"> GIF Animation using AJAX and APIs. The user clicks a button and the button is printed to the screen. The user can then play and pause the GIFs when clicking. They can also add their own GIFs by typing their request into the text field and hitting "Submit."
-                <a href="https://github.com/alisarkeshik/AJAX-Animated-GIFS" target="_blank"
-               ><br>GitHub
-           </a> 
+            <p id="portfolio"> GIF Animations using AJAX and APIs. The user clicks a button and the GIFs pertaining to the button are printed to the screen. The user can then play and pause the GIFs when clicking. They can also add their own GIFs by typing their request into the text field and hitting "Submit." 
+              <a href="https://github.com/alisarkeshik/AJAX-Animated-GIFS" target="_blank"
+               ><br><br><img
+               src="./images/git.png"
+               alt="Image Not Found"
+               class="center"
+               id="pics"
+           />
+           </a></p>
           </div>
-          <div class="col-lg-2"></div>
+          <div class="col-lg-1"></div>
         </div>
     </section>
     <br> <br>
 
-    <section>
+    <section id="width">
       <div class="row" style="text-align: center">
           <div class="col-lg-4">
-            Javascript Trivia Game
+          
               <a href="https://alisarkeshik.github.io/Javascript-Trivia-Game/" target="_blank"
               ><img
-                src="./images/trivia-game.jpg"
+                src="./images/trivia.png"
                 alt="Image Not Found"
                 class="center"
                 id="pics"
               
             /></a>
               <br>
-              <p class="card-text" id="portfolio"> A trivia game featuring random sports trivia. The user has 3 minutes to answer all the questions. At the end their score is computated and printed to the screen.
+              <p id="portfolio"> A trivia game written with Javascript. The user has 3 minutes to answer all the questions. At the end their score is computated and printed to the screen.
                    <a href="https://github.com/alisarkeshik/Javascript-Trivia-Game" target="_blank"
-                  ><br>GitHub
+                  ><br><br><img
+                  src="./images/git.png"
+                  alt="Image Not Found"
+                  class="center"
+                  id="pics"
+              />
               </a> 
             </div>
             <div class="col-lg-4">
-                Firebase Train Scheduler
                   <a href="https://alisarkeshik.github.io/Firebase-Train-Scheduler/" target="_blank"
                   ><img
-                    src="./images/train.jpg"
+                    src="./images/train.png"
                     alt="Image Not Found"
                     class="center"
                     id="pics"
                   
                 /></a>
                   <br>
-                  <p class="card-text" id="portfolio"> Using Firebase, the user can input train information that is uploaded to a table at the top of the screen.
+                  <p id="portfolio"> Using Firebase, this "Train Scheduler" allows the user to input train information which is subsequently uploaded to a table at the top of the screen.
                        <a href="https://github.com/alisarkeshik/Firebase-Train-Scheduler" target="_blank"
-                      ><br>GitHub
+                      ><br><br><img
+                      src="./images/git.png"
+                      alt="Image Not Found"
+                      class="center"
+                      id="pics"
+                  />
                   </a></p>
                 </div>
             
@@ -109,15 +152,20 @@
                     id="pics"
                 /></a>
                   <br>  
-                  <p class="card-text" id="portfolio"> Group Project that combined Javascript, AJAX, and APIs. The user enters their destination city and from there the app outputs 
+                  <p id="portfolio"> Group Project that combined Javascript, AJAX, and APIs. The user enters their destination city and from there the app outputs Hotel information, points of interest, fun events, and weather.
                        <a href="https://github.com/davidharris006/Project1" target="_blank"
-                      ><br>GitHub
+                      ><br><br><img
+                      src="./images/git.png"
+                      alt="Image Not Found"
+                      class="center"
+                      id="pics"
+                  />
                   </a></p>
                 
             </div> <br>
-    </section>
+    </section><br>
 
-    <footer class="footer">
+    <footer>
       Copyright Ali Sarkeshik 2019 &copy;
     </footer>
   </body>
