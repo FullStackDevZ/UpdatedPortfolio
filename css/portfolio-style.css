@@ -199,6 +199,13 @@ div {
   text-align: center;
 }
 
+#portfolio {
+  font-size: 14px;
+  color: black;
+  line-height: 1.4;
+  padding: 2px;
+}
+
 #form-control {
   border: 1px solid black;
 }
@@ -221,6 +228,11 @@ article {
   max-width: 50%;
   height: auto;
   text-align: center;
+}
+
+img {
+  border: 3 px solid black;
+  border-radius: 3px;
 }
 
 #pics {
@@ -273,7 +285,7 @@ footer {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
