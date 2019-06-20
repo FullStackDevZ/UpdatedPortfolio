@@ -244,12 +244,24 @@ p {
     font-style: georgia;
     font-weight: 300;
     color: black;
+    border: 2px ridge transparent;
+    border-radius: 10px;
     text-align: left;
     background-color: white;
     padding: 10px;
     text-align: left;
 }
 
+#portfolio {
+  font-size: 14px;
+  font-style: Helvetica;
+  color: black;
+  line-height: 1.4;
+  padding: 16px 24px;
+  box-shadow: 15px 15px 15px black;
+  text-align: left;
+
+}
 div {
   font-size: 23px;
   color: white;
@@ -259,16 +271,7 @@ div {
   text-align: center;
 }
 
-#portfolio {
-  font-size: 14px;
-  font-style: Helvetica;
-  color: black;
-  line-height: 1.4;
-  padding: 16px 24px;
-  box-shadow: 10px 10px 5px grey;
-  text-align: left;
 
-}
 
 #top {
   border-top: 1px solid rgba(160,160,160,0.2);
@@ -367,10 +370,13 @@ button {
 }
 
 footer {
-  background-color: #666666;
+  background-color: #6666664f;
   text-align: center;
   color: white;
-  border-top: 8px solid #4aaaa5;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px; 
+  text-shadow: 10px 10px 10px black;
+  border-top: 4px solid white;
   position: relative;
 }
 
@@ -379,6 +385,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  
 }
 
 .wrapper {
