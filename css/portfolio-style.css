@@ -19,9 +19,10 @@ section {
   -webkit-text-stroke-color: black;
   width: 960px;
   margin: 0 auto;
+  text-align: center;
 }
 a {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-weight: bolder;
   text-shadow: 3px black;
@@ -43,10 +44,12 @@ a:hover {
   padding: 1px;
 }
 
+
+
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bolder;
-  font-size: 26px;
+  font-size: 30px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   line-height: 30px;
@@ -68,6 +71,36 @@ body {
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 3px;
   text-shadow: 7px 7px 7px black;
+}
+
+#navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+#navbar a {
+  float: right;
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+/* Change background on mouse-over */
+#navbar a:hover {
+  background: red;
+ 
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
 .tooltip {
@@ -236,7 +269,21 @@ header[role="banner"] .group {
 li {
   line-height: 190%;
   list-style-type: none;
-
+ /* background-color: yellow; */
+ box-shadow: 10px 10px 10px black;
+ border-radius: 11px;
+ margin: 0 auto;
+ width: auto;
+ height: 70px;
+ /* display: inline-block; */
+ text-align: center;
+ padding: 5px;
+ text-shadow: 10px 10px 10px black;
+ font-size: 28px;
+  box-shadow: 10px 10px 10px black;
+  
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
 }
 
 /* .titles {
@@ -258,15 +305,16 @@ hr {
   background-image: linear-gradient(red, lime, red);
   box-shadow: 10px 10px 10px black;
   border-radius: 11px;
-  margin: 0 auto;
-  width: 960px;
-  height: 50px;
+  /* margin: 0 auto; */
+  width: auto;
+  height: 70px;
   /* display: inline-block; */
   text-align: center;
   padding: 5px;
   text-shadow: 15px 15px 15px black;
   font-size: 30px;
 }
+
 p {
    
   display: inline-block;
@@ -274,8 +322,9 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 16px;
-    font-style: georgia;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bolder;
     font-weight: 300;
     color: black;
     border: 2px ridge transparent;
@@ -298,7 +347,7 @@ p {
 
 }
 div {
-  font-size: 23px;
+  font-size: 33px;
   color: white;
   font-weight: bolder;
   display: inline-block;
