@@ -47,7 +47,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   font-size: 26px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   line-height: 30px;
   color: white;
@@ -56,6 +56,39 @@ body {
   background-size: 100%;
 }
 
+#portfolio-heading {
+  background-image: linear-gradient(orangered,purple);
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 35px;
+  border: 3px ridge transparent;
+  border-top-right-radius: 57px;
+  border-top-left-radius: 57px;
+  box-shadow: 10px 10px 10px black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+  text-shadow: 7px 7px 7px black;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
 .container {
   max-width: 400px;
   width: 50%;
@@ -75,7 +108,7 @@ body {
 
 #contact {
   background: #f9f9f9;
-  padding: 25px;
+  padding: 15px;
   margin: 30px 0;
   width: 100%;
   text-align: center;
@@ -190,8 +223,9 @@ header[role="banner"] .group {
 
 /* Written content on main page */
 #content {
-  background-image: linear-gradient(lime, green, blue, red);
+  background-color: rgba(0, 255, 0, 0.623);
   margin: 0 auto;
+  box-shadow: 10px 10px 10px black;
   width: 960px;
   /* display: inline-block; */
   text-align: center;
@@ -230,9 +264,9 @@ hr {
   /* display: inline-block; */
   text-align: center;
   padding: 5px;
- 
+  text-shadow: 15px 15px 15px black;
+  font-size: 30px;
 }
-
 p {
    
   display: inline-block;
@@ -240,7 +274,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-style: georgia;
     font-weight: 300;
     color: black;
@@ -250,6 +284,7 @@ p {
     background-color: white;
     padding: 10px;
     text-align: left;
+    box-shadow: 10px 10px 10px black;
 }
 
 #portfolio {
@@ -309,6 +344,11 @@ article {
 img {
   background-image: linear-gradient(lightgreen, lime, green);
   box-shadow: 10px 10px 7px black;
+  
+}
+
+#top-nav {
+  background-color: transparent;
 }
 
 .transparent {
@@ -362,7 +402,9 @@ button {
 #contact {
   background-color: #ffffff;
   border-style: solid;
-  border-color: lightgray;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
   text-align: center;
   color: black;
   font-size: 20px;
