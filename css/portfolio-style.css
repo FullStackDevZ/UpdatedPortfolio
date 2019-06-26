@@ -39,8 +39,8 @@ a:link {
 }
 
 a:hover {
-  background-color: red;
-  color: yellow;
+  background-color: yellow;
+  color: red;
   padding: 1px;
 }
 
@@ -67,7 +67,7 @@ body {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 35px;
-  border: 3px ridge transparent;
+  border: 5px ridge transparent;
   border-top-right-radius: 57px;
   border-top-left-radius: 57px;
   box-shadow: 10px 10px 10px black;
@@ -97,7 +97,7 @@ body {
 
 /* Change background on mouse-over */
 #navbar a:hover {
-  background: red;
+  background: yellow;
  
 }
 
@@ -259,7 +259,8 @@ header[role="banner"] .group {
 
 /* Written content on main page */
 #content {
-  background-color: rgba(0, 255, 0, 0.623);
+  /* background-color: rgba(0, 255, 0, 0.623); */
+  background-color: transparent;
   margin: 0 auto;
   box-shadow: 10px 10px 10px black;
   width: 960px;
@@ -405,6 +406,7 @@ img {
 
 .transparent {
   background-color: transparent;
+  
 }
 
 #pics {
