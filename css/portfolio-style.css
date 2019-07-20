@@ -276,12 +276,16 @@ header[role="banner"] .group {
 li {
   line-height: 190%;
   list-style-type: none;
- /* background-color: yellow; */
- box-shadow: 10px 10px 10px black;
- border-radius: 11px;
+ background-color: rgba(56, 6, 6, 0.384);
+ box-shadow: 12px 12px 12px black;
+ border-top-right-radius: 45px;
+ border-top-left-radius: 45px;
+ border-bottom-right-radius: 45px;
+ border-bottom-left-radius: 45px;
+margin-top: 5px;
  margin: 0 auto;
  width: auto;
- height: 70px;
+ height: 60px;
  /* display: inline-block; */
  text-align: center;
  padding: 5px;
@@ -474,14 +478,15 @@ button {
 }
 
 footer {
-  background-color: #6666664f;
+  background-color: rgba(24, 1, 24, 0.623);
   text-align: center;
   color: white;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-width: 1px; 
   text-shadow: 10px 10px 10px black;
   border-top: 4px solid white;
   position: relative;
+  font-size: 30px;
 }
 
 .footer {
