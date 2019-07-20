@@ -23,7 +23,7 @@ section {
 }
 
 a {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 
   font-weight: bolder;
@@ -330,7 +330,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     font-style: bolder;
     font-weight: 300;
