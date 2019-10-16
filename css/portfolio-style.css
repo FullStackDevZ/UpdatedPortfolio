@@ -15,8 +15,8 @@ section {
   font-size: 37px;
   font-style: helvetica;
   color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
   width: 960px;
   margin: 0 auto;
   text-align: center;
@@ -25,12 +25,12 @@ section {
 a {
   font-size: 20px;
   color: white;
-  font-weight: bolder;
-  text-shadow: 7px 7px 7x 7px black;
+  /* font-weight: bolder; */
+  /* text-shadow: 7px 7px 7x 7px black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  border: 10px black 1px;
-  border-radius: 5px;
+  -webkit-text-stroke-color: black; */
+  /* border: 10px black 1px;
+  border-radius: 5px; */
   
 }
 a:link {
@@ -40,7 +40,7 @@ a:link {
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: red;
   color: red;
   padding: 1px;
 }
@@ -56,7 +56,7 @@ body {
   line-height: 30px;
   color: white;
   /* background: url("../images/andras.jpg"); */
-  background: url("../images/ruvim.jpg");
+  background: url("../images/dark-honeycomb.png");
   fill-opacity: initial;
   background-size: 100%;
   background-attachment: fixed;
@@ -100,7 +100,7 @@ body {
 
 /* Change background on mouse-over */
 #navbar a:hover {
-  background: yellow;
+  color: red;
  
 }
 
@@ -289,12 +289,12 @@ margin-top: 5px;
  /* display: inline-block; */
  text-align: center;
  padding: 5px;
- text-shadow: 10px 10px 10px black;
+ /* text-shadow: 10px 10px 10px black; */
  font-size: 28px;
-  box-shadow: 10px 10px 10px black;
+  /* box-shadow: 10px 10px 10px black;
   
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px; */
 }
 
 /* .titles {
@@ -333,24 +333,23 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: bolder;
-    font-weight: 300;
+    /* font-style: bolder; */
+    font-weight: 50;
     color: black;
     border: 2px ridge transparent;
     border-radius: 10px;
     text-align: left;
     background-color: white;
     padding: 10px;
-    text-align: left;
     box-shadow: 10px 10px 10px black;
     margin-bottom: 10px;
 }
 
 #portfolio {
-  font-size: 15px;
-  font-style: Helvetica;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
   color: black;
   line-height: 1.4;
   padding: 16px 24px;
@@ -365,8 +364,8 @@ div {
   display: inline-block;
   position: relative;
   text-align: center;
-  -webkit-text-stroke: black 1px;
-  text-shadow: 10px 10px 10px 10px black;
+  /* -webkit-text-stroke: black 1px; */
+  /* text-shadow: 10px 10px 10px 10px black; */
 }
 
 
@@ -463,6 +462,7 @@ button {
   float: left;
   text-align: center;
   padding: 10px;
+  color: black;
 }
 
 #contact {
