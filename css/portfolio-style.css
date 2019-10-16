@@ -335,7 +335,7 @@ p {
     margin-inline-end: 0px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    /* font-style: bolder; */
+    font-style: bold;
     font-weight: 50;
     color: black;
     border: 2px ridge transparent;
