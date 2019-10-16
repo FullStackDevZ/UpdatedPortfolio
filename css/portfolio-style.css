@@ -336,7 +336,7 @@ p {
     margin-inline-end: 0px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: bold;
+  
     font-weight: 50;
     color: black;
     border: 2px ridge transparent;
@@ -351,7 +351,7 @@ p {
 #portfolio {
   font-size: 14px;
   font-family: 'Times New Roman', Times, serif;
-  color: black;
+ 
   line-height: 1.4;
   padding: 16px 24px;
   box-shadow: 15px 15px 15px black;
